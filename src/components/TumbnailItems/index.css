@@ -1,0 +1,12 @@
+.tumbnail-list-item-container {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.thumbnail-image {
+  max-height: 150px;
+  max-width: 150px;
+}
+.button-thumbnail {
+  background-color: transparent;
+  border: none;
+}

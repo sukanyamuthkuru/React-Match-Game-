@@ -1,0 +1,18 @@
+.tabItem-listItem-container {
+  margin-right: 50px;
+}
+.tabItem-text {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+.activeTabStyling {
+  color: #fec653;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 2px #fec653;
+}
