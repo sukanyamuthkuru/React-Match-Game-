@@ -47,9 +47,8 @@ class MatchGame extends Component {
     const {matchId} = this.state
     const {imagesList} = this.props
     const list = [...imagesList]
-    imagesList.sort(() => Math.random() - 0.5)
     if (id === matchId) {
-      const shuffeledlist = imagesList.sort(() => Math.random() - 0.5)
+      const shuffeledlist = list.sort(() => Math.random() - 0.5)
       this.setState(pre => ({
         score: pre.score + 1,
         matchImage: shuffeledlist[0].imageUrl,
